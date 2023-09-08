@@ -1,0 +1,46 @@
+ <!DOCTYPE html> 
+ <html lang="en"> 
+     <script> function displayRating(slider) { 
+         document.getElementById("ratingValue").innerHTML = slider.value; 
+         } function displayRating(slider) { 
+     document.getelementById("ratingValue").innerHTML = slider.value;}</script> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta http-equiv="Content type" content="text/html:char set=UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>Register an  Employee Form </title> 
+ </head> 
+ <body> 
+     <h1> Employee Registeration form</h1> 
+     <form action="thank you.html"> </form> 
+     <label for="Full name">Full Name:</label> 
+     <input type="text" name="Full Name" id="Full Name" placeholder="Enter your Full name" autofocus="autofocus" required="required">*<br/> 
+     <label for="email">E-mail:</label><br/> 
+     <input type="email" name="email" id="email" placeholder="Enter a valid 
+     e-mail" required />*<br/> 
+     <label for="rating">Years of Experience:</label><br/> 
+        
+ <label for="dateOfBirth">Date of Birth:</label><br/> 
+    <input type="date" name="dateOfBirth" id="dateOfBirth" required />*<br/> 
+ <label for="age">Age:</label><br/> 
+    <input type="number" name="age" id="age" size="6" min="18" max="120" 
+ step="1" value="21" /><br/> 
+ <label for="rating">Years of Experience:</label><br/> 
+ <input type="range" name="rating" id="rating" min="0" max="100" 
+ step="1" value="0" /><br/> 
+ <input type="submit" value="Register" /> 
+ <p>Fields marked * are required.</p> 
+ <input type="range" name="rating" id="rating" min="0" max="100" 
+ step="1" value="0" /> 
+ <span id="ratingValue">0</span><br/> 
+ <input type="range" name="rating" id="rating" min="0" max="100" 
+ step="1" value="0" onchange="displayRating(this);" /> 
+  
+  
+  
+  
+  
+  
+  
+ </body> 
+ </html>
